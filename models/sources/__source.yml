@@ -1,0 +1,8 @@
+version: '1.0.0'
+config-version: 2
+sources:
+  - name: udl
+    database: dev_dwdb
+    tables:
+      - name: users_pii
+      - name: address_info
